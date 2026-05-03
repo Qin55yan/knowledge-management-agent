@@ -132,7 +132,7 @@ MiMo API Key（申请地址）
 
 bash
 # 克隆仓库
-git clone https://github.com/你的用户名/knowledge-management-agent.git
+git clone https://github.com/Qin55yan/knowledge-management-agent.git
 cd knowledge-management-agent
 
 # 配置环境变量
