@@ -1,5 +1,3 @@
-# knowledge-management-agent
-一个能自动整理笔记、检索信息、生成摘要的知识助手
 🧠 Personal Knowledge Management Agent
 
 
@@ -78,36 +76,36 @@ knowledge-management-agent/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/knowledge/agent/
-│   │   │   ├── KnowledgeAgentApplication.java    # 启动类
+│   │   │   ├── KnowledgeAgentApplication.java
 │   │   │   ├── config/
-│   │   │   │   ├── MilvusConfig.java             # Milvus 配置
-│   │   │   │   ├── MimoApiConfig.java            # MiMo API 配置
-│   │   │   │   └── AppConfig.java                # 应用配置
+│   │   │   │   ├── MilvusConfig.java
+│   │   │   │   ├── MimoApiConfig.java
+│   │   │   │   └── AppConfig.java
 │   │   │   ├── controller/
-│   │   │   │   ├── DocumentController.java       # 文档管理接口
-│   │   │   │   ├── SearchController.java         # 检索接口
-│   │   │   │   ├── ChatController.java           # 问答接口
-│   │   │   │   └── SummaryController.java        # 摘要接口
+│   │   │   │   ├── DocumentController.java
+│   │   │   │   ├── SearchController.java
+│   │   │   │   ├── ChatController.java
+│   │   │   │   └── SummaryController.java
 │   │   │   ├── service/
-│   │   │   │   ├── DocumentService.java          # 文档解析与分块
-│   │   │   │   ├── EmbeddingService.java         # 文本向量化
-│   │   │   │   ├── SearchService.java            # 语义检索
-│   │   │   │   ├── ChatService.java              # 问答对话
-│   │   │   │   ├── SummaryService.java           # 摘要生成
-│   │   │   │   └── MultimodalService.java        # 多模态理解
+│   │   │   │   ├── DocumentService.java
+│   │   │   │   ├── EmbeddingService.java
+│   │   │   │   ├── SearchService.java
+│   │   │   │   ├── ChatService.java
+│   │   │   │   ├── SummaryService.java
+│   │   │   │   └── MultimodalService.java
 │   │   │   ├── model/
-│   │   │   │   ├── Document.java                 # 文档实体
-│   │   │   │   ├── Chunk.java                    # 文档分块
-│   │   │   │   └── ChatMessage.java              # 对话消息
+│   │   │   │   ├── Document.java
+│   │   │   │   ├── Chunk.java
+│   │   │   │   └── ChatMessage.java
 │   │   │   ├── repository/
-│   │   │   │   ├── DocumentRepository.java       # 文档持久化
-│   │   │   │   └── VectorRepository.java         # 向量存储
+│   │   │   │   ├── DocumentRepository.java
+│   │   │   │   └── VectorRepository.java
 │   │   │   └── util/
-│   │   │       ├── TextSplitter.java             # 文本分块工具
-│   │   │       └── FileUtil.java                 # 文件处理工具
+│   │   │       ├── TextSplitter.java
+│   │   │       └── FileUtil.java
 │   │   └── resources/
-│   │       ├── application.yml                   # 应用配置
-│   │       └── prompt/                           # Prompt 模板
+│   │       ├── application.yml
+│   │       └── prompt/
 │   │           ├── summary.prompt
 │   │           ├── qa.prompt
 │   │           └── tag.prompt
@@ -188,7 +186,6 @@ GET    /api/tags/{tag}/documents     # 按标签筛选文档
 
 
 🗺️ 路线图
-
 
  v0.1 - 项目架构搭建与基础配置
  v0.2 - 多格式文档解析与结构化处理
